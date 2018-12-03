@@ -181,7 +181,6 @@ if __name__ == "__main__":
     for account in accounts:
         UID , PWD = account
         zf = CzfAccount(UID, PWD)
-        # zf = CzfAccount('B17050322','cl193931.')
         print("登录成功")
         zf.useSelenium('http://jwxt.njupt.edu.cn/xs_main.aspx?xh={}#a'.format(UID))
 
