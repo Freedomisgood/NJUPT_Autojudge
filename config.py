@@ -54,3 +54,4 @@ def get_jsonData(filename):
 if __name__ == "__main__":
     # modifyConfig("dada.conf", "config")
     account = getConfig("dada.conf", "account")
+    print("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS")
