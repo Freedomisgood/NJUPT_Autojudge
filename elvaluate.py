@@ -70,7 +70,7 @@ class CzfAccount(Zhengfang):
             alert.accept()
         time.sleep(1)
         try:
-            self.judgenav = self.driver.find_element_by_xpath('//*[@id="headDiv"]/ul[@class="nav"]/li[3]')
+            self.judgenav = self.driver.find_element_by_xpath('//*[@id="headDiv"]/ul[@class="nav"]/li[4]')
         except NoSuchElementException:
             print("接口未开放")
             return
