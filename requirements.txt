@@ -3,7 +3,7 @@ bs4==0.0.1
 certifi==2018.11.29
 chardet==3.0.4
 idna==2.7
-lxml==4.2.5
+lxml==4.6.5
 njupt==0.3.0
 Pillow==6.2.0
 requests==2.20.1
